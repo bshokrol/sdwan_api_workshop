@@ -4,16 +4,18 @@ created by bshokrol
 04/24/2021
 
 """
-# ignore insecure requests warning
+
+# pip install pandas
 import pandas as pd
 import sys
 import getpass
+import json
+# pip install requests
 import requests
+# ignore insecure requests warning
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-# pip install requests
-# pip install pandas
 pd.set_option('display.max_rows', 50)
 pd.set_option('display.max_columns', 10)
 pd.set_option('display.width', 2000)
