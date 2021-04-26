@@ -22,7 +22,7 @@ pd.set_option('display.width', 2000)
 
 GET_ALL_DEVICES = "dataservice/device"
 GET_ALL_DEVICE_TEMPLATES = "dataservice/template/device"
-GET_BFD_SESSIONS = "dataservice/device/bfd/history?deviceId={0}"
+GET_BFD_SESSIONS = "dataservice/device/bfd/sessions?deviceId={0}"
 
 
 class SdwanBootcamp:
